@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fish-and-tips {
+    display: flex;
+    flex-direction: row;
+    width: 5000px;
+    justify-content: space-evenly;
+}
+
+.fish {
+    border: solid aqua 5px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fish-picture {
+    width: 325px;
+    height: 125px;
+    display: block;
+    border: solid lightseagreen 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fish-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 850px;
+}
+
+.fish-names {
+    display: flex;
+    justify-content: center;
+}
+
+.fish-description {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.fish-care-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px
+}
+
+.fish-care-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fish-care {
+    border: solid blue 5px;
+    margin: 5px auto 5px auto;
+    padding: 10px;
+    font-size: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.fish-care-subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 1px 1px 5px 1px;
+}
+
+.fish-care-body {
+    display: flex;
+    margin: 1px auto 1px auto;
+    font-size: 16px;
+}
+
+.living-conditions {
+    border: solid rgb(127, 13, 172) 5px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.locations-section {
+    margin-left: 10px
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
