@@ -11,6 +11,7 @@
     justify-content: space-evenly;
 }
 
+/*fish start*/
 .fish {
     border: solid aqua 5px;
     margin: 10px;
@@ -51,7 +52,9 @@
     display: flex;
     justify-content: center;
 }
+/*fish end*/
 
+/*fish care start*/
 .fish-care-section {
     display: flex;
     flex-direction: column;
@@ -96,10 +99,45 @@
     font-size: 20px;
     width: 300px;
 }
+/*fish care end*/
 
+/*locations start*/
 .locations-section {
-    margin-left: 10px
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.locations-title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.locations-subsection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    display: flex;
+    width: 300px;
+    border: solid purple 5px;
+    padding: 10px;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.location-subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 1px 1px 5px 1px;
+    font-size: 20px;
+}
+/*locations end*/
 
 .banner {
     display: flex;
