@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: 850px;
 }
 
@@ -76,7 +76,7 @@ body {
 
 .fish-care {
     border: solid blue 5px;
-    margin: 5px auto 5px auto;
+    margin: 5px auto 20px auto;
     padding: 10px;
     font-size: 20px;
     width: 300px;
@@ -131,11 +131,11 @@ body {
 .location {
     display: flex;
     width: 300px;
-    border: solid purple 5px;
+    border: solid blueviolet 5px;
     padding: 10px;
     margin: 5px;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: coral;
 }
 
 .location-subtitle {
