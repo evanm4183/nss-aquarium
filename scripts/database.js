@@ -30,7 +30,7 @@ const database = {
             name: "Ray",
             origin: "United States",
             diet: "Invertabrates and Crustaceans",
-            length: 38,
+            length: 40,
         },
         {
             species: "Barracuda",
@@ -38,7 +38,7 @@ const database = {
             name: "Barry",
             origin: "Brazil",
             diet: "Small Fish",
-            length: 65
+            length: 54
         }
     ],
     fishTips: [

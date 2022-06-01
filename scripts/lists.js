@@ -2,9 +2,29 @@ import { getFish, getFishTips, getLocations } from "./database.js"
 
 export const FishList = () => {
     const fishes = getFish()
+    let holyFish = []
+    let soldierFish = []
+    let regularFish = []
+
+    for (let fish of fishes) {
+        if (fish.length % 3 === 0) {
+            holyFish.push(fish)
+        } else if (fish.length % 5 === 0) {
+            soldierFish.push(fish)
+        } else {
+            regularFish.push(fish)
+        }
+    }
+
+    console.log(holyFish)
+    console.log(soldierFish)
+    console.log(regularFish)
+
+    let orderedFish = holyFish.concat(soldierFish.concat(regularFish))
+    console.log(orderedFish)
 
     let htmlString = ''
-    for (const fish of fishes) {
+    for (const fish of orderedFish) {
         htmlString += `<div class="fish">
                 <div class="fish-names"><strong>${fish.species}</strong></div>
                 <img src="${fish.image}" alt="${fish.species}" class="fish-picture">
