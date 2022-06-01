@@ -1,3 +1,7 @@
+body {
+    background: aqua;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -13,7 +17,7 @@
 
 /*fish start*/
 .fish {
-    border: solid aqua 5px;
+    border: solid green 5px;
     margin: 10px;
     padding: 20px;
     font-size: 22px;
@@ -21,13 +25,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: beige;
 }
 
 .fish-picture {
     width: 325px;
     height: 125px;
     display: block;
-    border: solid lightseagreen 2px;
+    border: solid green 2px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -78,6 +83,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    background-color: aquamarine;
 }
 
 .fish-care-subtitle {
@@ -129,6 +135,7 @@
     padding: 10px;
     margin: 5px;
     flex-direction: column;
+    background-color: aliceblue;
 }
 
 .location-subtitle {
