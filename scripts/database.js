@@ -4,7 +4,7 @@ const database = {
             species: "Swordfish",
             image: "pictures/swordfish.jfif",
             name: "Marlon",
-            origin: "Carribean",
+            origin: "Caribbean",
             diet: "Large Fish and Squid",
             length: 177, //inches
         },
@@ -69,7 +69,7 @@ const database = {
     ],
     locations: [
         {
-            name: "Carribean",
+            name: "Caribbean",
             message: "Placeholder text"
         },
         {
